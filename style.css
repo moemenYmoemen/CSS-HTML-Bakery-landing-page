@@ -1,0 +1,593 @@
+*
+{
+    box-sizing: border-box;
+ 
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.Header
+{
+
+    width:100%;
+    height: 100vh;
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size:cover;
+    background-position: center;
+    padding-top: 1px;
+
+}
+
+
+.HeaderText h3,h2,h1
+{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.HeaderText h3
+{
+    font-weight:600;
+    margin-bottom: 0%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+
+}
+
+.HeaderText h2
+{   
+    font-weight:600;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+}
+
+.HeaderText h1
+{
+    margin: 0%;
+    font-weight: 6;
+    font-family: 'Alegreya', serif;
+    font-size: 76px;
+}
+
+.HeaderPanel
+{
+    /* width:50%;
+    margin:auto; */
+    text-align: center;
+    padding-top: 250px;
+    
+  
+}
+.navlogo
+{
+
+    position: fixed;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.navlogo img
+{
+    width: 200px;
+}
+
+ul#navmenu
+{
+
+    list-style: none;
+    float: right;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+   
+}
+
+ul#navmenu li
+{
+    display: inline;
+    color: white;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+    
+}
+
+
+.clear
+{
+    float: clear;
+}
+a{
+    text-decoration: none;
+}
+.navbar img
+{
+    
+    width:200px;
+
+
+}
+
+
+.settingsBox
+{
+    width:30px;
+    height:60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed; right:-2; top:35%;
+    z-index: 500;
+    border-radius: 10%;
+}
+
+body
+{
+    margin:0;
+} 
+
+.bt1
+{
+    padding: 15px 30px 15px 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #8e7754;
+
+    color:white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+}
+
+.bt2
+{
+    padding: 15px 30px 15px 30px;
+    border-style:solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color:transparent;
+
+    color:white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.whoWeare
+{
+  
+    background-color: rgb(255, 255, 255);
+   
+    margin: auto;
+}
+.whoWeare_img
+{   
+    
+    width:50%;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    padding-top: 100px;
+
+}
+
+.whoWeare_img img
+{
+    width: 100%;
+}
+.whoWeare_text
+{   
+    width: 50%;
+    text-align: left;
+    float: right;
+
+
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 100px 100px 100px 50px;
+    
+
+
+}
+.whoWeare_text p{
+    line-height: 30px;
+}
+.whoWeare_text h2
+{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+.clear
+{
+    clear:both;
+}
+
+.ourLocation
+{
+    /* background-color: #f8f8f8; */
+    background-color: #f8f8f8;
+    margin: auto;
+    overflow:auto;
+    
+
+}
+
+.ourLocation_img
+{   
+    
+    width:50%;
+    float:right;
+    background-color:#f8f8f8;
+    padding:75px 50px 75px 50px;
+
+
+}
+.ourLocation_img img
+{
+    width: 100%;
+}
+.ourLocation h2
+{
+    color: #303030;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+
+.ourLocation_text
+{   
+    width: 50%;
+    background-color: #f8f8f8;
+    text-align: left;
+    float: left;
+    margin-top: 80px;
+
+
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 100px 100px 100px 50px;
+    
+
+
+}
+
+.whoWeare_text p{
+    line-height: 30px;
+}
+
+.OurBaking
+{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.SuperiorBreads
+{   width: 33.333%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+
+}
+
+.SuperiorBreads img{
+    padding:  25px;
+    width: 100%;
+}
+.Bagels img{
+    padding:  25px;
+    width: 100%;
+}
+
+.Cookies img{
+    padding: 25px;
+    width: 100%;
+}
+
+
+.Bagels
+{
+    width: 33.333%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+.Cookies
+{   width: 33.333%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+.OurBaking h2
+{
+    color: #303030;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+
+.OurBaking h3
+{
+    color: #303030;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+.OurBaking p{
+
+    
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0px 25px 10px 25px;
+    text-align: center;
+    
+
+}
+
+.contactInfo
+{
+    /* background-color: #f8f8f8; */
+    background-color: #f8f8f8;
+    margin: auto;
+    overflow: auto;
+    
+
+    
+    
+
+}
+
+.contactInfotext
+{
+    margin-top: 30px;
+    /* background-color: #f8f8f8; */
+    background-color: #f8f8f8;
+    /* margin: auto; */
+    width: 50%;
+    float: left;
+    padding: 25px;
+    
+}
+
+.contactInfotext h2
+{
+    color: #303030;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+
+.contactInfotext p,h3,li
+{
+    line-height: 30px;
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.Gmap
+{
+
+background-color: #f8f8f8;
+width: 50%;
+float: right;
+padding: 40px;
+
+
+}
+
+.footer
+{
+    background-color: #403d38;
+    padding: 50px 70px 50px 70px;
+    overflow: auto;
+}
+
+.footer h2
+{
+
+    text-align: left;
+    font-size: 18px;
+}
+
+.aboutus
+{
+    background-color: #403d38;
+    width: 25%;
+    float: left;
+  
+    
+}
+
+.aboutus h2
+{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.aboutus p
+{
+    color:#969696;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+.special
+{
+    background-color: #403d38;
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.special li
+{
+
+    color:#969696;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    border-bottom: #969696;
+    margin-left: -30px;
+
+
+    border-bottom: 1px solid rgba(150, 150 , 150, 0.5);
+    line-height: 40px;
+    
+
+}
+
+
+.special h2
+{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+
+.OpeningHours
+{
+    background-color: #403d38;
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+
+.OpeningHours h2
+{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.OpeningHours li
+{
+
+    color:#969696;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    border-bottom: #969696;
+    margin-left: -30px;
+
+
+    border-bottom: 1px solid rgba(150, 150 , 150, 0.5);
+    line-height: 40px;
+    
+
+}
+
+
+
+.contactus
+{
+
+    background-image: url(images/world.png),   linear-gradient(
+        rgba(64,61,56, 0.95), 
+        rgba(64,61,56, 0.95)
+      );
+    background-blend-mode: overlay;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+    
+
+
+}
+
+
+
+.contactus h2
+{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.contactus li
+{
+
+    color:#969696;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    
+
+}
+
+.footerinfo
+{
+    overflow: auto;
+
+}
+
+.footerlogo
+{
+    padding: 50px 0 15px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #353330;
+
+
+
+}
+
+.footerdate
+{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #353330;
+
+
+
+}
+
+.footerdate p
+{
+
+    color:#969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+
+}
